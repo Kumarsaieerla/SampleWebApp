@@ -1,2 +1,2 @@
-FROM tomcat:8.0.20-jre8
+FROM tomcat:9.0-jdk11
 COPY samplewebapp.War /usr/local/tomcat/webapps/samplewebapp.War
